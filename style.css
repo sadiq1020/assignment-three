@@ -2,10 +2,6 @@
     .banner-height img {
         height: 540px;
     }
-
-    /* .faq-width {
-        width: 100%;
-    } */
 }
 
 @media only screen and (min-width:577px) and (max-width:992px) {
@@ -14,6 +10,26 @@
         height: 550px;
     }
 }
+
+.media-icon a {
+    font-size: xx-large;
+    color: #FFFFFF;
+}
+
+
+
+/* .faq-width {
+        width: 100%;
+    } */
+
+
+/* .smedia-icons {
+    display: flex;
+    justify-content: center;
+    column-gap: 5%;
+    margin-top: 10px;
+} */
+
 
 
 /* .banner-height img {
