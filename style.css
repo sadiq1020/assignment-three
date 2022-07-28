@@ -1,0 +1,28 @@
+@media only screen and (max-width:576px) {
+    .banner-height img {
+        height: 510px;
+    }
+}
+
+@media only screen and (min-width:577px) and (max-width:992px) {
+
+    .banner-height img {
+        height: 550px;
+    }
+}
+
+
+/* .banner-height img {
+        max-width: 100%;
+        height: auto;
+    } */
+/* only screen and (min-width:689px) and (max-width:992px) */
+/* .banner-height h1 {
+        font-size: xx-small;
+    } */
+
+/* .banner-height {
+        position: absolute;
+        top: 0;
+        left: 20%;
+    } */
