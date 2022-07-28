@@ -1,20 +1,22 @@
 @media only screen and (max-width:576px) {
     .banner-height img {
-        height: 540px;
+        object-fit: cover;
+        height: 500px;
     }
 }
 
 @media only screen and (min-width:577px) and (max-width:992px) {
 
     .banner-height img {
+        object-fit: cover;
         height: 550px;
     }
 }
 
-.media-icon a {
+/* .media-icon a {
     font-size: xx-large;
     color: #FFFFFF;
-}
+} */
 
 
 

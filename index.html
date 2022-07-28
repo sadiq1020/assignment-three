@@ -19,7 +19,7 @@
 <body>
     <header>
         <!-- navigation bar -->
-        <section class="container">
+        <section class="container pt-2">
             <nav class="navbar navbar-expand-lg bg-light">
                 <div class="container-fluid">
                     <a class="navbar-brand fw-bold" href="#">Sajid EDU</a>
@@ -34,22 +34,28 @@
                                 <a class="nav-link active" aria-current="page" href="#">Home</a>
                             </li>
                             <li class="nav-item">
-                                <a class="nav-link" href="#">Department</a>
+                                <a class="nav-link" href="#course-selection">Courses</a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
                                     aria-expanded="false">
-                                    Course selection
+                                    Departments
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#">html css</a></li>
-                                    <li><a class="dropdown-item" href="#">javascript</a></li>
+                                    <li><a class="dropdown-item" href="#">UI/UX Design</a></li>
+                                    <li><a class="dropdown-item" href="#">Javascript</a></li>
                                     <li>
                                     </li>
-                                    <li><a class="dropdown-item" href="#">react</a></li>
+                                    <li><a class="dropdown-item" href="#">Web Development</a></li>
+                                    <li><a class="dropdown-item" href="#">Digital Marketing
+                                        </a></li>
+                                    <li><a class="dropdown-item" href="#">Photography</a></li>
+                                    <li><a class="dropdown-item" href="#">Motoin Graphics</a></li>
                             </li>
-                            <li><a class="dropdown-item" href="#">job placement</a></li>
                         </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#faq">FAQ</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link">About us</a>
@@ -77,7 +83,8 @@
                 <div class="carousel-inner">
                     <div class="carousel-item active banner-height">
                         <img src="./images/cover/banner-1.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block d-md-block position-absolute top-50 start-25">
+                        <div
+                            class="carousel-caption d-block d-md-block d-flex flex-column flex-sm-column flex-md-column flex-lg-column justify-content-center align-items-center h-50">
                             <h1 class="fw-bold">Start Learn Online & Save Time</h1>
                             <p>Online learning is
                                 fundamentally student-centered, due to the easy implementation of student discussion
@@ -87,8 +94,9 @@
                     </div>
                     <div class="carousel-item banner-height">
                         <img src="./images/cover/banner-2.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block d-md-block position-absolute top-50 start-25">
-                            <h1>Learn from Anywherer in the World</h1>
+                        <div
+                            class="carousel-caption d-block d-md-block d-flex flex-column flex-sm-column flex-md-column flex-lg-column justify-content-center align-items-center h-50">
+                            <h1 class="text-warning fw-bold">Learn from Anywherer in the World</h1>
                             <p>“Teaching in the Internet age means we must teach tomorrow's skills today.” — Dr.
                                 Jennifer
                                 Fleming</p>
@@ -97,7 +105,8 @@
                     </div>
                     <div class="carousel-item banner-height">
                         <img src="./images/cover/banner-3.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block d-md-block position-absolute top-50 start-25">
+                        <div
+                            class="carousel-caption d-block d-md-block d-flex flex-column flex-sm-column flex-md-column flex-lg-column justify-content-center align-items-center h-50">
                             <h1>Enroll today to be More Professional</h1>
                             <p>We are offering the most organized curriculam to make your journey even more easier!</p>
                             <button type="button" class="btn btn-info text-white"><strong>Get Started</strong></button>
@@ -120,7 +129,7 @@
 
     <main>
         <!-- course descriptions -->
-        <section class="container">
+        <section class="container" id="course-selection">
             <div class="mt-5 d-flex flex-column align-items-center justify-content-center">
                 <h2>Learn about our Populer Coureses</h2>
                 <p class="mb-5">Here's a quick summary of most popular online web development courses of all time</p>
@@ -142,7 +151,7 @@
                         <img class="img-fluid" src="./images/course/course-2.png" alt="">
                     </div>
                     <div class="ms-3">
-                        <h5>Fundamental Of UI/UX Design</h5>
+                        <h5>Javascript Basic to advance</h5>
                         <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                         <h5 class="text-info">Price : 20$</h5>
                     </div>
@@ -153,7 +162,7 @@
                         <img class="img-fluid" src="./images/course/course-3.png" alt="">
                     </div>
                     <div class="ms-3">
-                        <h5>Fundamental Of UI/UX Design</h5>
+                        <h5>Fullstack web development</h5>
                         <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                         <h5 class="text-info">Price : 20$</h5>
                     </div>
@@ -164,7 +173,7 @@
                         <img class="img-fluid" src="./images/course/course-4.png" alt="">
                     </div>
                     <div class="ms-3">
-                        <h5>Fundamental Of UI/UX Design</h5>
+                        <h5>Digital Marketing</h5>
                         <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                         <h5 class="text-info">Price : 20$</h5>
                     </div>
@@ -175,7 +184,7 @@
                         <img class="img-fluid" src="./images/course/course-5.png" alt="">
                     </div>
                     <div class="ms-3">
-                        <h5>Fundamental Of UI/UX Design</h5>
+                        <h5>Photography Basic Rules</h5>
                         <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                         <h5 class="text-info">Price : 20$</h5>
                     </div>
@@ -186,7 +195,7 @@
                         <img class="img-fluid" src="./images/course/course-6.png" alt="">
                     </div>
                     <div class="ms-3">
-                        <h5>Fundamental Of UI/UX Design</h5>
+                        <h5>Motoin Graphics</h5>
                         <p>Some quick example text to build on the card title and make up the bulk of the card.</p>
                         <h5 class="text-info">Price : 20$</h5>
                     </div>
@@ -327,7 +336,7 @@
             </div>
         </section>
         <!-- faq -->
-        <section class="container">
+        <section class="container" id="faq">
             <div class="d-flex justify-content-center">
                 <div class="mb-5">
                     <h2 class="text-center">Frequently Asked Questions</h2>
@@ -340,15 +349,16 @@
                 <div class="bg-info px-2 mx-5 w-75 faq-width">
                     <div class="accordion accordion-flush" id="accordionFlushExample">
                         <div class="accordion-item">
-                            <h2 class="accordion-header" id="flush-headingOne">
-                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
-                                    aria-controls="flush-collapseOne">
+                            <h2 class="accordion-header" id="flush-headingOne panelsStayOpen-headingOne">
+                                <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                    aria-controls="panelsStayOpen-collapseOne">
                                     <strong>What are the differences between flexbox and grid box? </strong>
                                 </button>
                             </h2>
-                            <div id="flush-collapseOne" class="accordion-collapse collapse"
-                                aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show"
+                                aria-labelledby="panelsStayOpen-headingOne">
+                                <!-- data-bs-parent="#accordionFlushExample" -->
                                 <div class="accordion-body">The basic difference between CSS Grid Layout and CSS Flexbox
                                     Layout is that flexbox was designed for layout in one dimension - either a row or a
                                     column. Grid was designed for two-dimensional layout - rows, and columns at the same
@@ -449,12 +459,12 @@
 
         <div class="d-flex justify-content-center">
             <div class="media-icon mx-2"><a href="https://www.facebook.com/" target="_blank"><i
-                        class="fa-brands fa-facebook-square"></i></a>
+                        class="fa-brands fa-facebook-square fs-1 text-white"></i></a>
             </div>
             <div class="media-icon mx-2"><a href="https://twitter.com/" target="_blank"><i
-                        class="fa-brands fa-twitter-square"></i></a></div>
+                        class="fa-brands fa-twitter-square fs-1 text-white"></i></a></div>
             <div class="media-icon mx-2"><a href="https://www.instagram.com/" target="_blank"><i
-                        class="fa-brands fa-instagram-square"></i></a></div>
+                        class="fa-brands fa-instagram-square fs-1 text-white"></i></a></div>
         </div>
 
     </footer>
